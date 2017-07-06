@@ -22,9 +22,9 @@
     }
 
     img {
-      margin: 100px 0px 0px 0px;
+      margin: 100px 15px 0px 15px;
       border: 10px solid white;
-      border-radius: 30px;
+      border-radius: 20px;
       padding: 0 20px;
       background: url("http://i.imgur.com/jYfrAMq.jpg");
       background: url("http://i.imgur.com/qjBa0me.jpg");
@@ -50,6 +50,36 @@
       text-align: center;
     }
 
+    .flex-container {
+      padding: 0 10px;
+      margin: 100px 50px 0 37px;
+      list-style: none;
+  
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+  
+      -webkit-flex-flow: row wrap;
+      justify-content: space-around;
+      background: #DD4472;
+      padding: 0 3px;
+      width: 1100px;
+      height: 100px;
+      margin-top: 10px;
+  
+      line-height: 100px;
+      color: white;
+      font-weight: bold;
+      font-size: 2em;
+      text-align: center;
+
+      border-radius: 10px;
+      border: 10px solid white;
+    }
+
+
 
   </style>
 </head>
@@ -64,25 +94,25 @@
       <li><a href="portrait.html">Portrait photography</a></li>
     </ul>
   </header>
-    <h2>Hi! I'm Kyle, a Chicago-based Photographer and up coming Web Developer!</h2>
-    <dev>
+    <h2 class="flex-container">Sup! I'm Klaus, a Chicago-based Photographer and up coming Web Developer!</h2>
+    <div>
       <img src="http://i.imgur.com/jYfrAMq.jpg" alt="" width="300px" height="250px">
       <img src="http://i.imgur.com/qjBa0me.jpg" alt="" width="300px" height="250px">
       <img src="http://i.imgur.com/3FYOf0y.jpg" alt="" width="300px" height="250px">
       <img src="http://i.imgur.com/S2002pm.jpg" alt="" width="300px" height="250px">
       <img src="http://i.imgur.com/YJwZkHQ.jpg" alt="" width="300px" height="250px">
       <hr />
-    </dev>
+    </div>
       <ul>
         <li>
           <p>Last Year, my brother and I went to New York, Brooklyn. We came across these some of theses graffiti arts in a neighborhood called, SOHO in Manhattan and Brooklyn New York. Beautiful work of art if I do say so myself.</p>
         </li>
       </ul>
       <hr />
-    <dev>
+    <div>
       <img src="http://i.imgur.com/ETlqAXC.jpg" alt="" width="300px" height="250px"> 
       <img src="http://i.imgur.com/7mmzlVz.jpg" alt="" width="300px" height="250px">
       <img src="http://i.imgur.com/dl9pLCh.jpg" alt="" width="300px" height="250px">
-    </dev>
+    </div>
 </body>
 </html>
